@@ -10,7 +10,7 @@ import {SplashContextProvider} from './context/SplashContext';
 
 const App = () => {
   useEffect(() => {
-    StatusBar.setBarStyle('dark-content');
+    StatusBar.setBarStyle('light-content');
   }, []);
 
   return (

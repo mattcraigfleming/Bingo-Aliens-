@@ -52,7 +52,9 @@ export const Splash = ({isAppReady}: {isAppReady: boolean}) => {
     }
   }, [containerOpacity, state]);
 
-  if (state === HIDDEN) return null;
+  if (state === HIDDEN) {
+    return null;
+  }
 
   return (
     <Animated.View

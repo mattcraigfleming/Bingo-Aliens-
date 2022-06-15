@@ -18,8 +18,8 @@ const WebViewContainer = ({onLoad, renderLoading}: IWebViewContainerProps) => {
     <WebView
       originWhitelist={['*']}
       renderLoading={renderLoading}
-      startInLoadingState={true}
-      onLoad={onLoad}
+      startInLoadingState={false}
+      onLoadEnd={onLoad}
       source={{
         uri: WEBVIEW_URI,
       }}

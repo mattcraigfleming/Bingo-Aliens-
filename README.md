@@ -5,7 +5,7 @@
 To get started using this repo simply run:
 
 ```shell
-# Step 1: install packages
+# Step 1: Install packages
 $ cd BingoAliens/
 $ yarn
 $ npx pod-install
@@ -34,5 +34,6 @@ src
 │
 └───context
     │   LoadingContext.tsx
+    │   SplashContext.tsx
 
 ```
